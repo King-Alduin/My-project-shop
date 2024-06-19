@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultural Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="фото/1.png" alt="Логотип">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="Corm.html">Кормовые добавки</a></li>
+                <li><a href="Osnov.html">Основные корма</a></li>
+                <li><a href="Semena.html">Семена</a></li>
+                <li><a href="Udobrenie.html">Удобрения</a></li>
+                <li><a href="useful_info.html">Полезная информация</a></li>
+               
+            </ul>
+        </nav>
+        <h1>АгроМир</h1>
+        <div class="cart">
+            <button class="view-cart-btn">Просмотр корзины (<span class="cart-count">0</span>)</button>
+        </div>
+    </header>
+   
+
+    <main>
+        <div class="product-grid">
+            <div class="product-card" data-id="10">
+                <img src="фото/00003.jpg" alt="Product Image" class="product-image">
+                <h2 class="product-title">Вормик</h2>
+                <p class="product-description">Вормик / Укрепляет иммунитет - Возрождает плодородие усталых деградирующих земель. Укрепляет иммунитет, устойчивость к болезням и вредителям. Оживляет, пробуждает растение после применения пестицидов. Улучшает процесс фотосинтеза, цветения, клеточное дыхание. Повышает доступность макроэлементов, усиливает их действие.</p>
+                <p class="product-price">1325 ₸</p>
+                <button class="add-to-cart-btn">Добавить в корзину</button>
+            </div>
+            <div class="product-card" data-id="11">
+                <img src="фото/00004.jpg" alt="Product Image" class="product-image">
+                <h2 class="product-title">Мегавит</h2>
+                <p class="product-description">Мегавит / MEGAVit - комплексное био-минеральное удобрение содержит: Зам-Зам, янтарную, щавелевую, лимонную, ортофосфорную кислоты. Органические вещества MEGAVit обогащён хелатной формой магния, железа, цинка, меди и марганца. Присутствуют; азот, фосфор, калий, бор, кальций, сера. Допустимо содержит: ауксины, полипептиды, цитокинины, фульваты, ферменты, гумины, фитогормоны, полезные почвенные бактерии.</p>
+                <p class="product-price">1255 ₸</p>
+                <button class="add-to-cart-btn">Добавить в корзину</button>
+            </div>
+            <!-- Add more product cards as needed -->
+            <div class="product-card" data-id="12">
+                <img src="фото/00002.jpg" alt="Product Image" class="product-image">
+                <h2 class="product-title">Биозз</h2>
+                <p class="product-description">Биозз / Повышает урожайность и сроки хранения - Возрождает плодородие усталых деградирующих земель. Укрепляет иммунитет, устойчивость к болезням и вредителям. Оживляет, пробуждает растение после применения пестицидов. Улучшает процесс фотосинтеза, цветения, клеточное дыхание. Повышает доступность макроэлементов, усиливает их действие. Катализирует биохимические реакции в почве.</p>
+                <p class="product-price">1405 ₸</p>
+                <button class="add-to-cart-btn">Добавить в корзину</button>
+            </div>
+        </div>
+    </main>
+    <div class="cart-modal">
+        <div class="cart-content">
+            <h2>Корзина</h2>
+            <ul class="cart-items"></ul>
+            <p class="total-price">Сумма: 0.00 ₸</p>
+            <button class="place-order-btn">Оформить заказ</button>
+            <button class="close-cart-btn">Закрыть</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

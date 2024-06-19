@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultural Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="фото/1.png" alt="Логотип">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="Corm.html">Кормовые добавки</a></li>
+                <li><a href="Osnov.html">Основные корма</a></li>
+                <li><a href="Semena.html">Семена</a></li>
+                <li><a href="Udobrenie.html">Удобрения</a></li>
+                <li><a href="useful_info.html">Полезная информация</a></li>
+                
+            </ul>
+        </nav>
+        <h1>АгроМир</h1>
+        <div class="cart">
+            <button class="view-cart-btn">Просмотр корзины (<span class="cart-count">0</span>)</button>
+        </div>
+    </header>
+   
+
+    <main>
+        <div class="product-grid">
+            <div class="product-card" data-id="7">
+                <img src="фото/0001.jpg" alt="Product Image" class="product-image">
+                <h2 class="product-title">Бенито F1</h2>
+                <p class="product-description">Benito F1 — это ранний гибрид детерминантного томата. Он предназначен для высадки на открытом воздухе, для теплиц данный сорт не подходит. Растение низкорослое, с сильным стеблем и хорошо развитой корневой системой. Чтобы куст не завалился под тяжестью плодов, рекомендуется подвязать его к опоре. Данный сорт рано плодоносит и производит кисти красивых сливовидных плодов. Он обеспечивает щедрый урожай при небольших затратах. Первый урожай можно ожидать уже через 60–65 дней.</p>
+                <p class="product-price">325 ₸</p>
+                <button class="add-to-cart-btn">Добавить в корзину</button>
+            </div>
+            <div class="product-card" data-id="8">
+                <img src="фото/0002.jpg" alt="Product Image" class="product-image">
+                <h2 class="product-title">Синбад F1</h2>
+                <p class="product-description">Аладдин F1 / Aladdin F1 - Раннеспелый гладкоплодный гибрид типа Бета Альфа. Вегетационный период 38-40 дней, длина плодов 15 см, вес 110-130 г, цвет кожуры зеленый. Подходит для выращивания в открытом и защищенном грунте. Гибрид однородный и стабильный.</p>
+                <p class="product-price">255 ₸</p>
+                <button class="add-to-cart-btn">Добавить в корзину</button>
+            </div>
+            <!-- Add more product cards as needed -->
+            <div class="product-card" data-id="9">
+                <img src="фото/0005.jpg" alt="Product Image" class="product-image">
+                <h2 class="product-title">Монтана F1</h2>
+                <p class="product-description">Монтана F1 / Montana F1 - Сладкая кукуруза желтого цвета типа Sh2. Высота растения 170-180 см. Высота початка 75-85 см. Средняя длина початка 23-25 см. Количество зерен вокруг початка 14-16. Ранний сорт. Длительный срок хранения. Срок созревания 75 дней.</p>
+                <p class="product-price">405 ₸</p>
+                <button class="add-to-cart-btn">Добавить в корзину</button>
+            </div>
+        </div>
+    </main>
+
+    <div class="cart-modal">
+        <div class="cart-content">
+            <h2>Корзина</h2>
+            <ul class="cart-items"></ul>
+            <p class="total-price">Сумма: 0.00 ₸</p>
+            <button class="place-order-btn">Оформить заказ</button>
+            <button class="close-cart-btn">Закрыть</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

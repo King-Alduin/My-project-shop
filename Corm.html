@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultural Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="фото/1.png" alt="Логотип">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="Corm.html">Кормовые добавки</a></li>
+                <li><a href="Osnov.html">Основные корма</a></li>
+                <li><a href="Semena.html">Семена</a></li>
+                <li><a href="Udobrenie.html">Удобрения</a></li>
+                <li><a href="useful_info.html">Полезная информация</a></li>
+                
+            </ul>
+        </nav>
+        <h1>АгроМир</h1>
+        <div class="cart">
+            <button class="view-cart-btn">Просмотр корзины (<span class="cart-count">0</span>)</button>
+        </div>
+    </header>
+   
+
+    <main>
+        <div class="product-grid">
+            <div class="product-card" data-id="1">
+                <img src="фото/1.jpg" alt="Product Image" class="product-image">
+                <h2 class="product-title">Кормовой «Бетаин»</h2>
+                <p class="product-description">Бетаин – это натуральная кормовая добавка для сельскохозяйственных  животных, используемая для профилактики нарушения обмена веществ и увеличения мясной продуктивности. Является дешевой и качественной заменой  холин хлорида (витамины группы В) и метионина (серосодержащая аминокислота). Применяется в питании крупнорогатого скота, свиней и птиц.</p>
+                <p class="product-price">1625 ₸</p>
+                <button class="add-to-cart-btn">Добавить в корзину</button>
+            </div>
+            <div class="product-card" data-id="2">
+                <img src="фото/2.jpg" alt="Product Image" class="product-image">
+                <h2 class="product-title">Бутофан OR</h2>
+                <p class="product-description">Бутофан OR – это комплексная кормовая добавка для птиц, которая предназначена для регуляции обмена кальция и фосфора. Относится к классу общеукрепляющих и тонизирующих добавок. Способствует нормальной работе обмена веществ, повышает общее состояние иммунной системы.</p>
+                <p class="product-price">2625 ₸</p>
+                <button class="add-to-cart-btn">Добавить в корзину</button>
+            </div>
+            <!-- Add more product cards as needed -->
+            <div class="product-card" data-id="3">
+                <img src="фото/3.jpg" alt="Product Image" class="product-image">
+                <h2 class="product-title">Рекс Витал Электролиты</h2>
+                <p class="product-description">Рекс Витал Электролиты – это витаминный комплекс для профилактики и лечения гиповитаминозов и стрессов.  Естественный стимулятор роста и продуктивности. Этот сыпучий порошок желтого цвета необходимо разводить в воде, согласно инструкции. Эта кормовая добавка предназначена для всех сельскохозяйственных животных и птиц.</p>
+                <p class="product-price">3625 ₸</p>
+                <button class="add-to-cart-btn">Добавить в корзину</button>
+            </div>
+        </div>
+    </main>
+
+    <div class="cart-modal">
+        <div class="cart-content">
+            <h2>Корзина</h2>
+            <ul class="cart-items"></ul>
+            <p class="total-price">Сумма: 0.00 ₸</p>
+            <button class="place-order-btn">Оформить заказ</button>
+            <button class="close-cart-btn">Закрыть</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
